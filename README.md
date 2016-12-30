@@ -7,6 +7,6 @@ This is a classic minesweeper game in which the object of the game is to clear t
 INSTRUCTIONS:
 
 Press new game to start a new random game.
-If you press a grid square that itself is a mine, the game will end. The mine triggered will be displayed in red, and the rest of mines on the game board will be displayed as well.
-If you press a grid square that itself is not a mine, but has mines surrounding it, surrounding squares will display the number of mines that surround themselves.
+If you press a grid square that itself is a mine, the game will end. The mine triggered will be displayed in red, and the rest of that mines on the game board will be displayed as well.
+If you press a grid square that itself is not a mine, but has mines surrounding it, this grid square will display the number of mines surrounding it.
 If you press a grid square whose adjacent squares have no mines surrounding them, you will recursively uncover those squares as well, until the patch of grid squares have at least one mine surrounding them.
